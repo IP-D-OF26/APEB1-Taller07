@@ -66,7 +66,7 @@ public class Ejercicio01_AdivinaNumero {
 ---
 ### Problema04
 ---
-**Nómina empresa:**  Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. **Presentar un reporte como el siguiente:**
+**Nómina empresa:**  Realizar un programa Java que permita pedir por teclado el nombre de **5** empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. ***Presentar un reporte como el siguiente:***
 
 |  NOMBRE| NUMERO DE DÍAS TRABAJADOS | COSTO DEL DÍA| CANTIDAD A CANCELAR|
 | --- | --- | ----- | --- |
@@ -102,7 +102,7 @@ Promedio de estaturas: 1.87
 ---
 ### Problema06
 ---
-**Reporte de notas:** Generar un programa Java que permita ingresar 4 estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
+**Reporte de notas:** Generar un programa Java que permita ingresar **4** estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
 
 | NOMBRE DEL ESTUDIANTE | PROMEDIO | ESTADO |
 | --- | --- | ----- |
@@ -111,7 +111,7 @@ Promedio de estaturas: 1.87
 | Estudiante 3 | 7 |   Aprobado |
 | Estudiante 4 | 5 |   Reprobado |
 
->**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***.
+>**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***. (Nota: se reprueba cuando la nota es menor a 7 pts.)
 
 ---
 ### Problema07
