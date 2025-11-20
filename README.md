@@ -29,10 +29,11 @@ public class Ejercicio01_AdivinaNumero {
  ```
 
 ### Listado de problemáticas:
+---
 
 ### Ejercicio01
 ---
-**Adivina un número:** Dada la dinámica de juego computacional, programar una solución que genere un número entero aleatorio entre 1-N, y solicite al usuario lo adivine; dé pistas si es que el usuario falla, advirtiendo la cantidad de intentos restantes. Si es que no logra adivinar, muestre el mensaje "GAME OVER". 
+**Adivina un número:** Dada la dinámica de juego computacional, programar una solución que genere un número entero aleatorio entre ***1-N***, y solicite al usuario lo adivine; dé pistas si es que el usuario falla, advirtiendo la cantidad de intentos restantes. Si es que no logra adivinar, muestre el mensaje **"GAME OVER"**. 
 
 ### Problema02
 ---
@@ -68,7 +69,7 @@ public class Ejercicio01_AdivinaNumero {
 ---
 **Nómina empresa:**  Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. **Presentar un reporte como el siguiente:**
 
-|  | | | |
+|  NOMBRE| NUMERO DE DÍAS TRABAJADOS | COSTO DEL DÍA| CANTIDAD A CANCELAR|
 | --- | --- | ----- | --- |
 | Nombre 1 | 10 |   $2.5 | $25 |
 | Nombre 2 | 11 |   $2 | $22 |
@@ -87,7 +88,7 @@ public class Ejercicio01_AdivinaNumero {
 	- 	Edad
 	- 	Estatura
 
-> El ciclo de ingreso de información deberá terminar cuando el usuario lo decida. Se debe imprimir el siguiente reporte (usar una cadena de acumulación):
+El ciclo de ingreso de información deberá terminar cuando el usuario lo decida. Se debe imprimir el siguiente reporte ***(usar una cadena de acumulación)***:
 
 ```
 Listado de Jugadores
@@ -106,28 +107,33 @@ Promedio de estaturas: 1.87
 ---
 **Reporte de notas:** Generar un programa Java que permita ingresar 4 estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
 
-|  | | |
+| NOMBRE DEL ESTUDIANTE | PROMEDIO | ESTADO |
 | --- | --- | ----- |
 | Estudiante 1 | 10 |   Aprobado |
 | Estudiante 2 | 6.9 |   Reprobado |
 | Estudiante 3 | 7 |   Aprobado |
 | Estudiante 4 | 5 |   Reprobado |
 
-Atención; con base al valor del promedio, usted debe asignar en cada registro el tipo Aprobado o Reprobado.
+>**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***.
 
 ---
 
 ### Problema07
 ---
 **Factura de compras:** Una empresa de comercialización de computadoras realiza el proceso de venta haciendo un descuento por tipo de cliente:
-Si es cliente tipo 1 hay un descuento del 10%
-Si es cliente tipo 2 hay un descuento del 20%
-En caso que sea otro tipo de cliente, no hay descuento.
+
+- Si es cliente tipo 1 hay un descuento del 10%
+- Si es cliente tipo 2 hay un descuento del 20%
+- En caso que sea otro tipo de cliente, no hay descuento.
+
 Generar un proceso que permita ingresar 7 ventas: por cada venta preguntar los siguiente datos:
+
 - Nombre del cliente
-- Costo de la computadora (solo se vende una computadora por transacción)
+- Costo de la computadora _(solo se vende una computadora por transacción)_
 - Tipo de cliente
+
 Presentar el siguiente reporte:
+
 Cliente tipo 1, compra computadora con precio $100
 
 ---
