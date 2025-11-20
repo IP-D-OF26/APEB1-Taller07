@@ -2,17 +2,41 @@
 
 ## Construcción de programas usando estructuras repetitivas WHILE y DO-WHILE
 
-* Leer detenidamente cada problemática propuesta.
-* Programa/codifíque con el lenguaje de alto nivel Java (IDE NetBeans), sus soluciones a cada uno de los problemas listados a continuación. 
-* Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
-* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas.
-* Al final como parte de la codificación (en comentario /*** ), copiar y pegar los resultados obtenidos de la consola, evidenciando el funcionamiento de su solución. 
+* En su asignatura ***Fundamentos computacionales***, resolvió *(análisis, diseño de algoritmos, flujograma, prueba de escritorio, etc.)*, algunos problemas con estructuras de control repetitivas. El objetivo a continuación es codificar similares algoritmos, pero en el lenguaje de programación de alto nivel **JAVA**. 
+* Programar/codificar en el lenguaje de alto nivel Java *(en el IDE NetBeans)*, sus soluciones a cada uno de los problemas listados a continuación dadas las siguientes instrucciones: 
+    1. Clone este repositorio en su **PC** local `git clone URL_del_repo` 
+    2. En su ***IDE*** cree un nuevo proyecto de tipo ***Java Application*** con el siguiente nombre: ***Proyect-APEB1-Taller07*** eligiendo como localización del proyecto, el repositorio *(carpeta)* clonada localmente en el *paso anterior*.
+    3. Para cada problema, genere una clase/programa java independiente pero dentro del único proyecto (*Java App* creado en el *paso anterior*). No olvide nombrar cada clase con el número del problema y un nombre representativo de la solución. Ejemplo: ***Ejercicio01_AdivinaNumero***
+    4. Finalizado el taller *(o cada ejercicio)*, sincronice los cambios de su **PC** local a este repositorio remoto de **GitHub**, con los comandos: `git add .` `git commit -m "Mensaje de la versión"` `git push`
+* Verifique sus soluciones con las técnicas de compilación, ejecución y depurado de programas.
+* Documente las soluciones con los bloques: (1.-) ***Documentación del problema***, y (2.-) ***Evidencia del funcionamiento y resultados***. Para ello, al inicio y final como parte de la codificación (en comentarios /** ), copiar y pegar el enunciado del problema, y al final, los resultados obtenidos de consola **RUN**. Ejemplo: 
 
+```java
+/**
+ * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
+ * @author NombreAutor
+ * @version 1.0
+ */
 
-***
+public class Ejercicio01_AdivinaNumero {
+    //AQUÍ AGREGUE TODO SU CÓDIGO...
+}
 
-### Problema 1
-> Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
+/***
+ * EVIDENCIA DEL RUN:
+ * Pegue aquí la evidencia de la ejecución del .java
+ */
+ ```
+
+### Listado de problemáticas:
+
+### Ejercicio01
+---
+**Adivina un número:** Dada la dinámica de juego computacional, programar una solución que genere un número entero aleatorio entre 1-N, y solicite al usuario lo adivine; dé pistas si es que el usuario falla, advirtiendo la cantidad de intentos restantes. Si es que no logra adivinar, muestre el mensaje "GAME OVER". 
+
+### Problema02
+---
+**Serie numérica 1:** Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
 
 ```
 	1/10
@@ -25,8 +49,9 @@
 
 ---
 
-### Problema 2
-> Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
+### Problema03
+---
+**Serie numérica 2:**  Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
 
 ```
 	5/10
@@ -39,8 +64,9 @@
 
 ---
 
-### Problema 3
-> Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. **Presentar un reporte como el siguiente:**
+### Problema04
+---
+**Nómina empresa:**  Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. **Presentar un reporte como el siguiente:**
 
 |  | | | |
 | --- | --- | ----- | --- |
@@ -52,8 +78,9 @@
 
 ---
 
-### Problema 4
-> Generar una solución que permita ingresar jugadores de fútbol; por cada jugador se debe solicitar:
+### Problema05
+---
+**Equipo de futbol:**  Generar una solución que permita ingresar jugadores de fútbol; por cada jugador se debe solicitar:
 
   -	Nombre el jugador
 	- 	Posición en el campo de juego
@@ -75,8 +102,9 @@ Promedio de estaturas: 1.87
 
 ---
 
-### Problema 5
-> Generar un programa Java que permita ingresar 4 estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
+### Problema06
+---
+**Reporte de notas:** Generar un programa Java que permita ingresar 4 estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
 
 |  | | |
 | --- | --- | ----- |
@@ -89,8 +117,9 @@ Atención; con base al valor del promedio, usted debe asignar en cada registro e
 
 ---
 
-### Problema 6
-> Una empresa de comercialización de computadoras realiza el proceso de venta haciendo un descuento por tipo de cliente:
+### Problema07
+---
+**Factura de compras:** Una empresa de comercialización de computadoras realiza el proceso de venta haciendo un descuento por tipo de cliente:
 Si es cliente tipo 1 hay un descuento del 10%
 Si es cliente tipo 2 hay un descuento del 20%
 En caso que sea otro tipo de cliente, no hay descuento.
@@ -103,8 +132,9 @@ Cliente tipo 1, compra computadora con precio $100
 
 ---
 
-### Problema 7
-> Generar  e imprimir la siguiente serie:
+### Problema08
+---
+**Serie numérica 3:** Generar e imprimir la siguiente serie y su sumatoria:
 ```
 sumatoria = -(1/1)+(1/2)-(1/3)+(1/4)-(1/5)+(1/6)-(1/7)+(1/8)-(1/9)+(1/10)
 ```
