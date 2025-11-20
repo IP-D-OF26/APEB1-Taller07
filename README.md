@@ -111,7 +111,7 @@ Promedio de estaturas: 1.87
 | Estudiante 3 | 7 |   Aprobado |
 | Estudiante 4 | 5 |   Reprobado |
 
->**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***. (Nota: se reprueba cuando la nota es menor a 7 pts.)
+>**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***. _(Nota: se reprueba cuando la nota es menor a 7 pts.)_
 
 ---
 ### Problema07
