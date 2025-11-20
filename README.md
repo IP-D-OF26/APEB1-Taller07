@@ -29,12 +29,13 @@ public class Ejercicio01_AdivinaNumero {
  ```
 
 ### Listado de problemáticas:
----
 
+---
 ### Ejercicio01
 ---
 **Adivina un número:** Dada la dinámica de juego computacional, programar una solución que genere un número entero aleatorio entre ***1-N***, y solicite al usuario lo adivine; dé pistas si es que el usuario falla, advirtiendo la cantidad de intentos restantes. Si es que no logra adivinar, muestre el mensaje **"GAME OVER"**. 
 
+---
 ### Problema02
 ---
 **Serie numérica 1:** Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
@@ -49,7 +50,6 @@ public class Ejercicio01_AdivinaNumero {
 ```
 
 ---
-
 ### Problema03
 ---
 **Serie numérica 2:**  Realizar un programa Java que permita presentar en pantalla la siguiente secuencia:
@@ -64,7 +64,6 @@ public class Ejercicio01_AdivinaNumero {
 ```
 
 ---
-
 ### Problema04
 ---
 **Nómina empresa:**  Realizar un programa Java que permita pedir por teclado el nombre de 5 empleados. Por cada empleado se debe solicitar el nombre, numero de días trabajados y costo del día trabajo. Calcular el valor a cancelar por la empresa para cada empleado. **Presentar un reporte como el siguiente:**
@@ -78,7 +77,6 @@ public class Ejercicio01_AdivinaNumero {
 | Nombre 5 | 12 |   $2 | $24 |
 
 ---
-
 ### Problema05
 ---
 **Equipo de futbol:**  Generar una solución que permita ingresar jugadores de fútbol; por cada jugador se debe solicitar:
@@ -102,7 +100,6 @@ Promedio de estaturas: 1.87
 ```
 
 ---
-
 ### Problema06
 ---
 **Reporte de notas:** Generar un programa Java que permita ingresar 4 estudiantes; por cada uno de ellos ingresar el nombre del estudiante, el promedio de ciclo. Presentar el siguiente reporte
@@ -117,7 +114,6 @@ Promedio de estaturas: 1.87
 >**Atención**: con base al valor del promedio, usted debe asignar en cada registro el ESTADO de: ***Aprobado*** o ***Reprobado***.
 
 ---
-
 ### Problema07
 ---
 **Factura de compras:** Una empresa de comercialización de computadoras realiza el proceso de venta haciendo un descuento por tipo de cliente:
@@ -137,7 +133,6 @@ Presentar el siguiente reporte:
 Cliente tipo 1, compra computadora con precio $100
 
 ---
-
 ### Problema08
 ---
 **Serie numérica 3:** Generar e imprimir la siguiente serie y su sumatoria:
